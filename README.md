@@ -49,6 +49,7 @@ console.log(result); // result : 1,625
 ```
 Suena ilógico que algo que tenga la palabra `function` no sea una función, Kyle Simpson de You Don't know js dice en su libro *Functional-Light JavaScript* 
 >Functional Programming is **not just programming with the `function` keyword**. *Kyle Simpson*.
+
 >Programación funcional no es solo programar con la palabra clave `function`.
 
 También en uno de sus cursos de programación funcional en  [Frontend Masters](https://frontendmasters.com/courses/functional-javascript-v3/) dice: porque se use la palabra `function` no la hace una función
