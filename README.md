@@ -23,8 +23,8 @@ var basePrice = 12500;
 var tax = 13;
 var result;
 /*
-esto es conocido como un procedimiento y no una función
-👇
+Esto es conocido como un procedimiento y no una función
+    👇
 */
 function calcTax() {
     result = ( basePrice /100 ) * tax;
