@@ -47,7 +47,7 @@ function calcTax(taxRate) {
 calcTax(tax);
 console.log(result); // result : 1,625
 ```
-Suena ilógico que algo que tenga la palabra `function` no sea una función, Kyle Simpson de You Don't know js dice en su libro *Functional-Light JavaScript* 
+Suena ilógico que algo que tenga la palabra `function` no sea una función, Kyle Simpson de You Don't know js dice en su libro [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS) 
 >Functional Programming is **not just programming with the `function` keyword**. *Kyle Simpson*.
 
 >Programación funcional no es solo programar con la palabra clave `function`.
@@ -56,4 +56,4 @@ También en uno de sus cursos de programación funcional en  [Frontend Masters](
 
 Me tomé el tiempo de hacer estas notas mientras voy en mi viaje de aprender JavaScript, me parece que hay información muy valiosa en inglés y que no está traducida al español, espero le sirva de mucho a aquellas personas que todavía no tienen un inglés avanzado ❤️
 
-Parte de estas notas fueron basadas en el libro *Functional-Light JavaScript* y cursos de Kyle Simpson de You Don't Know JS y también Brian Lonsdorf.
+Parte de estas notas fueron basadas en el libro [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS) y cursos de Kyle Simpson de You Don't Know JS y también Brian Lonsdorf.
