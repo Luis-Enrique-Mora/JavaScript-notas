@@ -1,8 +1,8 @@
 # Programación funcional con JavaScript
 
-Se refiere a programación funcional cuando una función **recibe un input y retorna un output**, además tiene que cumplir que, con el **mismo input siempre tiene que retornar el mismo output**, por ejemplo si de input una función recibe el número 5 y retorna el número 10, haciendo esto n cantidad de veces con la misma función con input 5 siempre debe retornar 10, no un resultado diferente.
+Se refiere a programación funcional cuando una función **recibe un input y retorna un output**, además tiene que cumplir que, con el **mismo input siempre tiene que retornar el mismo output**, por ejemplo si de input una función recibe el número 5 y retorna el número 10, haciendo esto n cantidad de veces con la misma función con input 5 siempre debe retornar de output 10, no un resultado diferente.
 
-ejemplo
+Ejemplo
 
 ```js
 /* Esta cuenta con 2 características de una función, 
@@ -16,7 +16,7 @@ function multiplyBy2( number ) {
 multiplyBy2( 5 );
 ```
 
-ejemplo de lo que no es una función
+Ejemplo de lo que no es una función
 
 ```js
 var basePrice = 12500;
@@ -32,7 +32,7 @@ function calcTax() {
 calcTax();
 console.log(result); // result : 1,625
 ```
-otro ejemplo de lo que no es una función
+Otro ejemplo de lo que no es una función
 
 Nota: a pesar de que este procedimiento recibe un input no está retornando un output como consecuencia del input
 
