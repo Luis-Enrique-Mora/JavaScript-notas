@@ -10,10 +10,10 @@ retorna un valor y además siempre con el mismo input retornará el mismo output
 en otras palabras si recibe un 5 como input siempre retornará de output 10
 */
 function multiplyBy2( number ) {
-    return number * 2; // 👈
+    return number * 2;
 }
-// si ejecutamos esta función n cantidad de veces con input 5 siempre retornará 10
-multiplyBy2( 5 );
+//
+multiplyBy2( 5 ); // 👈si ejecutamos esta función n cantidad de veces con input 5 siempre retornará 10
 ```
 
 Ejemplo de lo que no es una función
