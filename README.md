@@ -2,7 +2,7 @@
 
 Se refiere a programación funcional cuando una función **recibe un input y retorna un output**, además tiene que cumplir que, con el **mismo input siempre tiene que retornar el mismo output**, por ejemplo si de input una función recibe el numero 5 y retorna el número 10, haciendo esto n cantidad de veces con la misma función con input 5 siempre debe retornar 10, no un resultado diferente.
 
-ejemplos
+ejemplo
 
 ```js
 /* Esta es una función cuenta con 2 características, 
