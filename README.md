@@ -19,31 +19,31 @@ multiplyBy2( 5 ); // 👈si ejecutamos esta función n cantidad de veces con inp
 Ejemplo de lo que no es una función
 
 ```js
-var basePrice = 12500;
-var tax = 13;
-var result;
+var precioBase = 12500;
+var tarifaDeImpuesto = 13;
+var resultado;
 
 // 👇 Esto es conocido como un procedimiento y no una función
-function calcTax() {
-    result = ( basePrice /100 ) * tax;
+function calcImpuesto() {
+    resultado = ( precioBase /100 ) * tarifaDeImpuesto;
 }
-calcTax();
-console.log(result); // result : 1,625
+calcImpuesto();
+console.log( resultado ); // resultado : 1,625
 ```
 Otro ejemplo de lo que no es una función
 
 Nota: a pesar de que este procedimiento recibe un input no está retornando un output como consecuencia del input
 
 ```js
-var basePrice = 12500;
-var tax = 13;
-var result;
+var precioBase = 12500;
+var tarifaDeImpuesto = 13;
+var resultado;
 
-function calcTax(taxRate) {
-    result = ( basePrice / 100 ) * taxRate;
+function calcImpuesto() {
+    resultado = ( precioBase / 100 ) * tarifaDeImpuesto;
 }
-calcTax(tax);
-console.log(result); // result : 1,625
+calcImpuesto( tarifaDeImpuesto );
+console.log( resultado ); // resultado : 1,625
 ```
 Suena ilógico que algo que tenga la palabra `function` no sea una función, Kyle Simpson de You Don't know js dice en su libro [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS) 
 >Functional Programming is **not just programming with the `function` keyword**. *Kyle Simpson*.
