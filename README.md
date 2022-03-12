@@ -12,8 +12,8 @@ en otras palabras si recibe un 5 como input siempre retornará de output 10
 function multiplyBy2( number ) {
     return number * 2;
 }
-// si ejecutamos esta función n cantidad de veces con input 5 siempre retornará 10
-multiplyBy2( 5 );
+//
+multiplyBy2( 5 ); // 👈si ejecutamos esta función n cantidad de veces con input 5 siempre retornará 10
 ```
 
 Ejemplo de lo que no es una función
@@ -22,10 +22,8 @@ Ejemplo de lo que no es una función
 var basePrice = 12500;
 var tax = 13;
 var result;
-/*
-esto es conocido como un procedimiento y no una función
-*/
 
+// 👇 Esto es conocido como un procedimiento y no una función
 function calcTax() {
     result = ( basePrice /100 ) * tax;
 }
