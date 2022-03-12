@@ -1,4 +1,3 @@
-
 function crearFuncion(){
     var stringRecordado = "";
 
@@ -16,5 +15,4 @@ var funcionCreada = crearFuncion();
 funcionCreada("Hola");
 funcionCreada(" ");
 funcionCreada("Mundo")
-funcionCreada("!");
-
+console.log( funcionCreada("!") ); //Hola mundo!
