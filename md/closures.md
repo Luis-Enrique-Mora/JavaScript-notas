@@ -26,4 +26,4 @@ funcionCreada("Mundo");
 console.log( funcionCreada("!") ); //Hola mundo!
 ```
 
-Como se puede observar en el código anterior este cumple con las características de un closure, ya que la función `function crearFuncion()` retorna una función como output, retorna `function concatString(str)`.
+Como se puede observar en el código anterior este cumple con las características de un closure, ya que la función ```function crearFuncion()``` retorna una función como output, retorna `function concatString(str)`.
