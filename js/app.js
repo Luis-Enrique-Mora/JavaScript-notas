@@ -7,3 +7,4 @@ function calcTax() {
 }
 calcTax();
 console.log(result);
+
